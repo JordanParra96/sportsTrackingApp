@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Plan al que la sesión está sujeto</description>
+    <externalId>false</externalId>
+    <label>Plan</label>
+    <referenceTo>Plan__c</referenceTo>
+    <relationshipLabel>Tracks</relationshipLabel>
+    <relationshipName>Tracks_del</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

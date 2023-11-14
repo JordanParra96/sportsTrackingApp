@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_muscle__c</fullName>
+    <description>Músculo de activación del ejercicio</description>
+    <externalId>false</externalId>
+    <label>Related muscle</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abs</fullName>
+                <default>false</default>
+                <label>Abs</label>
+            </value>
+            <value>
+                <fullName>Back</fullName>
+                <default>false</default>
+                <label>Back</label>
+            </value>
+            <value>
+                <fullName>Biceps</fullName>
+                <default>false</default>
+                <label>Biceps</label>
+            </value>
+            <value>
+                <fullName>Chest</fullName>
+                <default>false</default>
+                <label>Chest</label>
+            </value>
+            <value>
+                <fullName>Deltoid</fullName>
+                <default>false</default>
+                <label>Deltoid</label>
+            </value>
+            <value>
+                <fullName>Hip</fullName>
+                <default>false</default>
+                <label>Hip</label>
+            </value>
+            <value>
+                <fullName>Thigh</fullName>
+                <default>false</default>
+                <label>Thigh</label>
+            </value>
+            <value>
+                <fullName>Triceps</fullName>
+                <default>false</default>
+                <label>Triceps</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
