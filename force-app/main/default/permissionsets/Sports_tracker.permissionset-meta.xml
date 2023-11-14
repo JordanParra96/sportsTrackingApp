@@ -76,6 +76,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Track__c.Day_of_the_week__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Track__c.Is_it_a_good_day_to_exercise__c</field>
         <readable>true</readable>

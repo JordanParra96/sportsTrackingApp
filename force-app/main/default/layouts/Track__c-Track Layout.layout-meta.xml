@@ -34,6 +34,10 @@
                 <field>Plan__c</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Day_of_the_week__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Session_duration_Min__c</field>
             </layoutItems>
